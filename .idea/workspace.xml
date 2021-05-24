@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d42b3a66-37b6-4101-8c75-704a26803133" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/ClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/server/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20210307.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/ServerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/CommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/Commands/Back.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/Commands/CommandInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/Commands/Forward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/Position/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/RobotTypes/Assassin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/RobotTypes/Juggernaut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/RobotTypes/RobotTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/server/RobotTypes/Sniper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Redemption.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Redemption.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/server/ClientThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/server/ClientThread.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,12 +54,13 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client.Main" />
       <module name="Redemption" />
